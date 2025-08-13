@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-pip"
+version = "0.1.0"
+description = "Test package for pip install from GitHub"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/otakulikescoding/test-pip"
