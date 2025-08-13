@@ -1,1 +1,2 @@
-print(123)
+def hello():
+    return "Hello from test-pip!"
