@@ -12,7 +12,6 @@ authors = [
     { name = "Your Name", email = "you@example.com" }
 ]
 license = { text = "MIT" }
-dependencies = []
 
-[project.urls]
-Homepage = "https://github.com/otakulikescoding/test-pip"
+[tool.setuptools.packages.find]
+where = ["src"]
